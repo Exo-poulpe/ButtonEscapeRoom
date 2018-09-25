@@ -1,5 +1,7 @@
 <?php
+//$time_pre = microtime(true);
 session_start();
+
 if (!isset($_SESSION['listBin'])) {
   //$_SESSION['listBin'] = [];
   InitializeArray();
